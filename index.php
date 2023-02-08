@@ -1,7 +1,3 @@
-<!--
-•	Add at least 5 CSS styles to the page OR implement Bootstrap and use it to layout the page in a clear and concise manner
--->
-
 <?php
 $my_arr_constructor = array();
 $ingredients = ['36oz pasta sauce', '1 onion (diced)', '2 cloves garlic (minced)', 'lasagna noodle * 12', '2cups ricotta cheese', '0.5lbs ground beef'];
@@ -37,8 +33,8 @@ $title = "Lasagna"
                 </ul>
                 <h2>Steps</h2>
                 <ol>
-                    <?php foreach ($recipe as $element_S): ?>
-                        <li><?= $element_S ?></li>
+                    <?php foreach ($recipe as $element_R): ?>
+                        <li><?= $element_R ?></li>
                     <?php endforeach ?>
                 </ol>
             <div>
@@ -47,6 +43,9 @@ $title = "Lasagna"
     </div>
 </body>
 </html>
+
+
+
 
 
 
