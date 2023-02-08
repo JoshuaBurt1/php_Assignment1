@@ -37,14 +37,12 @@ $title = "Lasagna"
                         <li><?= $element_R ?></li>
                     <?php endforeach ?>
                 </ol>
-            <div>
+            </div>
         </article> 
-    <footer>23W Intro to Web Prog using PHP - 01 COMP1006-23W-21319</footer>
+        <footer>23W Intro to Web Prog using PHP - 01 COMP1006-23W-21319</footer>
     </div>
 </body>
 </html>
-
-
 
 
 
