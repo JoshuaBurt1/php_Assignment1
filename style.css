@@ -1,0 +1,56 @@
+
+/* Typography */
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+html { /*modified (float:left; @aside2 & @article2 + clear:both; @ footer*/
+    font-family: "Helvetica";
+    box-sizing: border-box;
+}
+.wrapperA header h1{
+    font-style: normal;
+    font-size: 2.5em;
+    padding:10px;
+}
+h1{
+    font-size: 1.8em;
+}
+img{
+    width: 100%;  
+    padding: 13px;
+}
+.aside2{
+    background: #ccc;
+    height: 580px;
+    width:35%; /*relative to .wrapperA*/
+    border-style: inset;  ;
+    float:left;
+}
+.article2{
+    background: #ccc;
+    height: 580px;
+    width: 100%; /*relative to .wrapperA*/
+    border-style: inset;
+    padding:10px; /*html modification allows padding to alter box without having to change height and width*/
+}
+header, footer{
+    background: #797979;
+    height: 60px;
+}
+footer{
+    clear:both; /*returns css to normal flow after using float in previous divs*/
+    padding: 20px;
+}
+.wrapperA{
+    width: 60%; 
+    margin: 0 auto;
+}
+.wrapperB{   /*d) hexcolor, viewport width, margin --- class selector (1)*/
+    background-color: rgb(255, 223, 106);  
+    width: 63%; 
+    margin: 0 auto; 
+    margin-left: 20px;
+    padding: 1.49em;
+    border-radius: 15px; 
+    float: left;
+}
