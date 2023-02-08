@@ -19,10 +19,10 @@ $title = "Lasagna"
         <header>
             <h1>Assignment 1: The Recipe</h1>
         </header>
-        <aside class="aside2">
+        <aside class="leftBox">
             <img src="lasagna.jpg" alt="recipe">
         </aside>
-        <article class="article2">
+        <article class="rightBox">
             <div class = "wrapperB">
                 <h1><?= $title ?></h1>
                 <h2>Ingredients</h2>
@@ -43,6 +43,8 @@ $title = "Lasagna"
     </div>
 </body>
 </html>
+
+
 
 
 
