@@ -1,9 +1,7 @@
-
-/* Typography */
 *,*:before,*:after{
-    box-sizing: inherit;
+    box-sizing: inherit; /*box-model format: allows padding to alter box without having to change height and width*/
 }
-html { /*modified (float:left; @aside2 & @article2 + clear:both; @ footer*/
+html { 
     font-family: "Helvetica";
     box-sizing: border-box;
 }
@@ -19,33 +17,33 @@ img{
     width: 100%;  
     padding: 13px;
 }
-.aside2{
+.leftBox{
     background: #ccc;
     height: 580px;
-    width:35%; /*relative to .wrapperA*/
+    width:35%; 
     border-style: inset;  ;
     float:left;
 }
-.article2{
+.rightBox{
     background: #ccc;
     height: 580px;
-    width: 100%; /*relative to .wrapperA*/
+    width: 100%;
     border-style: inset;
-    padding:10px; /*html modification allows padding to alter box without having to change height and width*/
+    padding:10px; 
 }
 header, footer{
     background: #797979;
     height: 60px;
 }
 footer{
-    clear:both; /*returns css to normal flow after using float in previous divs*/
+    clear:both; /*returns css to normal flow after using float in .leftBox and .wrapperB divs*/
     padding: 20px;
 }
-.wrapperA{
+.wrapperA{ /*box-model wrapper*/
     width: 60%; 
     margin: 0 auto;
 }
-.wrapperB{   /*d) hexcolor, viewport width, margin --- class selector (1)*/
+.wrapperB{ /*recipe wrapper*/
     background-color: rgb(255, 223, 106);  
     width: 63%; 
     margin: 0 auto; 
